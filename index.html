@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Tech Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Lesego's Nail Studio</h1>
+            <p>Your nails deserve the best care. Book an appointment now!</p>
+            <a href="#booking" class="btn-book">Book an Appointment</a>
+        </div>
+    </header>
+
+   <!-- Services Section -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+        <!-- Manicure Section -->
+        <div class="service">
+            <h3>Manicure</h3>
+            <p><strong>Square</strong></p>
+            <ul>
+                <li>Short: R140</li>
+                <li>Medium: R180</li>
+                <li>Long: R200</li>
+            </ul>
+            <p><strong>Almond/Stiletto</strong></p>
+            <ul>
+                <li>Short: R160</li>
+                <li>Medium: R200</li>
+                <li>Long: R250</li>
+            </ul>
+        </div>
+
+        <!-- Extras Section -->
+        <div class="service">
+            <h3>Extras</h3>
+            <ul>
+                <li>Buff and Shine: R70</li>
+                <li>Plain Manicure: R80</li>
+                <li>Manicure (Design): R120</li>
+                <li>Nail Charms (per nail): +R5</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Gallery Section -->
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="photo1.jpeg" alt="Nail Art 1">
+        </div>
+        <div class="gallery-item">
+            <img src="photo2.jpeg" alt="Nail Art 2">
+        </div>
+        <div class="gallery-item">
+            <img src="photo3.jpeg" alt="Nail Art 3">
+        </div>
+        <div class="gallery-item">
+            <img src="photo7.jpeg" alt="Nail Art 4">
+        </div>
+        <div class="gallery-item">
+            <img src="photo5.jpeg" alt="Nail Art 5">
+        </div>
+        <div class="gallery-item">
+            <img src="photo10.jpeg" alt="Nail Art 6">
+        </div>
+    </div>
+</section>
+
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h2>Book an Appointment</h2>
+        <form id="bookingForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required>
+            <label for="service">Select Service</label>
+            <select id="service" required>
+                <option value="Classic Manicure">Manicure, Square</option>
+                <option value="Manicure Style">Manicure, Almond/Stilleto</option>
+                <option value="Extras">Extras</option>
+            </select>
+            <label for="date">Choose a Date</label>
+            <input type="date" id="date" required>
+            <label for="time">Choose a Time</label>
+            <input type="time" id="time" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Get in touch!</p>
+        <form id="contactForm">
+            <label for="contactName">Your Name</label>
+            <input type="text" id="contactName" required>
+            <label for="contactEmail">Your Email</label>
+            <input type="email" id="contactEmail" required>
+            <label for="contactMessage">Your Message</label>
+            <textarea id="contactMessage" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lesego's Nail Studio.Copy rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
