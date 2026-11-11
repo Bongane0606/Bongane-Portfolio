@@ -1,46 +1,58 @@
-# Letsoenyo Clen Bongane - Portfolio
+# Clen Bongane — Developer Portfolio
 
-![Portfolio Screenshot](photo3.jpeg)
+A modern, responsive portfolio for **Clen Bongane**, a final-year WeThinkCode_ student and aspiring software developer in South Africa.
 
-## Overview
-This is my personal portfolio website showcasing my skills, projects, and background as a web developer student. The portfolio is designed to be responsive and user-friendly, highlighting my journey in web development and my educational background.
+**Focus:** Java and Python backend development, data engineering, full-stack projects, and cybersecurity.
 
-## Features
-- **Responsive Design**: Works on all device sizes
-- **Modern UI**: Clean and professional interface
-- **Sections**:
-  - Home/Introduction
-  - About Me (with education details)
-  - Interests
-  - Skills (with progress bars)
-  - Projects (with links to code and live demos)
-  - Contact Form
-- **Interactive Elements**:
-  - Smooth scrolling navigation
-  - Hover effects
-  - Mobile-friendly hamburger menu
+## Portfolio
 
-## Technologies Used
-- HTML5
-- CSS3 (with CSS Grid and Flexbox)
-- Font Awesome icons
-- Google Fonts (Poppins)
+This site is a lightweight static website built with HTML, CSS and vanilla JavaScript. It uses a **Midnight Developer** design: a navy background, blue/violet highlights, a developer-terminal hero, accessible navigation, and project cards that link to real repositories.
 
-## Projects Showcased
-1. **Emergency Response System** - In-progress emergency response system
-2. **Nail Tech Website** - Website for a nail technician
-3. **Music Video Production Website** - Showcase for a production company
+### Featured work
 
-## How to Use
-1. Clone the repository or download the files
-2. Open `index.html` in your browser
-3. Navigate through the different sections using the menu
+- [SA Weather ETL Pipeline](https://github.com/Bongane0606/sa-weather-etl-pipeline) — Python, Docker, PostgreSQL, Apache Airflow and Flask
+- [Zuri Watch](https://github.com/Bongane0606/Zuri-Watch) — federated intrusion detection and AI security research
+- [SSH Threat Detection](https://github.com/Bongane0606/Log-analysis-and-threat-detection-pipeline) — log parsing, alert rules and Streamlit dashboard
+- [Mini Banking System](https://github.com/Bongane0606/Mini-Banking-System) — Java OOP
+- [Final MERN Project](https://github.com/Bongane0606/FINAL-MERN-PROJECT) — full-stack foundations
 
-## Live Demo
-The portfolio is hosted at [GitHub Pages](https://bongane0606.github.io/portfolio) (replace with your actual URL if hosted)
+## Run locally
+
+Clone the repository, then open the homepage:
+
+~~~bash
+git clone https://github.com/Bongane0606/Bongane-Portfolio.git
+cd Bongane-Portfolio
+python3 -m http.server 8000
+~~~
+
+Visit **http://localhost:8000**.
+
+No build step or backend is needed. External Google Fonts are optional; the page includes fallback fonts.
+
+## Deploy with GitHub Pages
+
+In **Settings → Pages**, select **Deploy from a branch**, choose **main**, folder **/(root)**, and save. After GitHub Pages finishes publishing, the site should be available at:
+
+https://bongane0606.github.io/Bongane-Portfolio/
+
+This is the expected URL; GitHub Pages must be enabled before it will work.
+
+## Project structure
+
+- \`index.html\` — current developer portfolio
+- \`portfolio.css\` — responsive Midnight Developer theme
+- \`portfolio.js\` — accessible mobile navigation and footer year
+- \`archive/lesego-nail-studio.html\` — preserved copy of the earlier nail-studio page
+- \`styles.css\`, \`scripts.js\` and legacy images — support the archived site
+
+Older experimental files (\`style.css\`, \`script.js\`, media, and earlier CV) remain in Git history/the repository to avoid deleting prior work without review.
 
 ## Contact
-- Email: bonganeclen@gmail.com
-- Phone: +27 67 819 9887
-- GitHub: [Bongane0606](https://github.com/Bongane0606)
-- LinkedIn: [Clen Bongane](https://linkedin.com/in/Clen Bongane)
+
+- GitHub: [@Bongane0606](https://github.com/Bongane0606)
+- Email: [bonganeclen@gmail.com](mailto:bonganeclen@gmail.com)
+
+---
+
+Built with care and improved as my skills grow.

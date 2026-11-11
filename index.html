@@ -1,122 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nail Tech Studio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1020">
+  <meta name="description" content="Clen Bongane — South African software developer and final-year WeThinkCode_ student. Explore backend, data engineering, full-stack and cybersecurity projects.">
+  <meta property="og:title" content="Clen Bongane | Software Developer">
+  <meta property="og:description" content="Backend development, data engineering and secure software. Explore my projects and experience.">
+  <meta property="og:type" content="website">
+  <title>Clen Bongane — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js" defer></script>
 </head>
 <body>
-    <!-- Header Section -->
-    <header id="hero">
-        <div class="hero-content">
-            <h1>Welcome to Lesego's Nail Studio</h1>
-            <p>Your nails deserve the best care. Book an appointment now!</p>
-            <a href="#booking" class="btn-book">Book an Appointment</a>
-        </div>
-    </header>
-
-   <!-- Services Section -->
-<section id="services">
-    <h2>Our Services</h2>
-    <div class="services-container">
-        <!-- Manicure Section -->
-        <div class="service">
-            <h3>Manicure</h3>
-            <p><strong>Square</strong></p>
-            <ul>
-                <li>Short: R140</li>
-                <li>Medium: R180</li>
-                <li>Long: R200</li>
-            </ul>
-            <p><strong>Almond/Stiletto</strong></p>
-            <ul>
-                <li>Short: R160</li>
-                <li>Medium: R200</li>
-                <li>Long: R250</li>
-            </ul>
-        </div>
-
-        <!-- Extras Section -->
-        <div class="service">
-            <h3>Extras</h3>
-            <ul>
-                <li>Buff and Shine: R70</li>
-                <li>Plain Manicure: R80</li>
-                <li>Manicure (Design): R120</li>
-                <li>Nail Charms (per nail): +R5</li>
-            </ul>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a href="#top" class="brand" aria-label="Clen Bongane homepage"><span class="brand-mark">C<span>/</span>B</span><span class="brand-label">clen<span class="accent">.dev</span></span></a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span></button>
+      <nav id="primary-navigation" class="nav-links" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#skills">Expertise</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
-</section>
+  </header>
 
-
-    <!-- Gallery Section -->
-<section id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery-container">
-        <div class="gallery-item">
-            <img src="photo1.jpeg" alt="Nail Art 1">
+  <main id="main">
+    <section id="top" class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot" aria-hidden="true"></span> OPEN TO JUNIOR DEVELOPER OPPORTUNITIES</div>
+        <p class="hero-hello">Hello, world. I'm</p>
+        <h1 id="hero-title">Clen <span class="gradient-text">Bongane.</span></h1>
+        <p class="hero-role">Software Developer <span class="slash">/</span> Backend &amp; Data Engineering</p>
+        <p class="hero-description">I turn ideas into working software — from Java applications and Python data pipelines to security-minded systems. Final-year WeThinkCode_ student, building from South Africa.</p>
+        <div class="hero-actions">
+          <a href="#work" class="button button-primary">Explore my work <span aria-hidden="true">↗</span></a>
+          <a href="mailto:bonganeclen@gmail.com?subject=Let's%20connect" class="button button-ghost">Get in touch <span aria-hidden="true">→</span></a>
         </div>
-        <div class="gallery-item">
-            <img src="photo2.jpeg" alt="Nail Art 2">
+        <div class="hero-meta"><span><i aria-hidden="true">◈</i> South Africa</span><span><i aria-hidden="true">⌘</i> Final-year WeThinkCode_ student</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Developer-inspired terminal illustration">
+        <div class="halo halo-1" aria-hidden="true"></div>
+        <div class="halo halo-2" aria-hidden="true"></div>
+        <div class="terminal">
+          <div class="terminal-top"><div class="terminal-dots" aria-hidden="true"><b></b><b></b><b></b></div><span>about-clen.js</span><span class="terminal-file">● portfolio</span></div>
+          <div class="terminal-body">
+            <div class="code-line"><span class="line-no">01</span><span><span class="syntax-purple">const</span> <span class="syntax-blue">developer</span> = {</span></div>
+            <div class="code-line"><span class="line-no">02</span><span>&nbsp;&nbsp;name: <span class="syntax-green">'Clen Bongane'</span>,</span></div>
+            <div class="code-line"><span class="line-no">03</span><span>&nbsp;&nbsp;focus: [</span></div>
+            <div class="code-line"><span class="line-no">04</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-green">'Backend'</span>,</span></div>
+            <div class="code-line"><span class="line-no">05</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-green">'Data Engineering'</span>,</span></div>
+            <div class="code-line"><span class="line-no">06</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-green">'Security'</span></span></div>
+            <div class="code-line"><span class="line-no">07</span><span>&nbsp;&nbsp;],</span></div>
+            <div class="code-line"><span class="line-no">08</span><span>&nbsp;&nbsp;mindset: <span class="syntax-green">'Always learning'</span></span></div>
+            <div class="code-line"><span class="line-no">09</span><span>};</span></div>
+            <div class="terminal-output"><span class="syntax-green">➜</span> Building what matters<span class="cursor"></span></div>
+          </div>
         </div>
-        <div class="gallery-item">
-            <img src="photo3.jpeg" alt="Nail Art 3">
-        </div>
-        <div class="gallery-item">
-            <img src="photo7.jpeg" alt="Nail Art 4">
-        </div>
-        <div class="gallery-item">
-            <img src="photo5.jpeg" alt="Nail Art 5">
-        </div>
-        <div class="gallery-item">
-            <img src="photo10.jpeg" alt="Nail Art 6">
-        </div>
-    </div>
-</section>
-
-
-    <!-- Booking Section -->
-    <section id="booking">
-        <h2>Book an Appointment</h2>
-        <form id="bookingForm">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" required>
-            <label for="service">Select Service</label>
-            <select id="service" required>
-                <option value="Classic Manicure">Manicure, Square</option>
-                <option value="Manicure Style">Manicure, Almond/Stilleto</option>
-                <option value="Extras">Extras</option>
-            </select>
-            <label for="date">Choose a Date</label>
-            <input type="date" id="date" required>
-            <label for="time">Choose a Time</label>
-            <input type="time" id="time" required>
-            <button type="submit">Book Now</button>
-        </form>
+        <div class="floating-tag tag-one">PYTHON <span>●</span> JAVA</div>
+        <div class="floating-tag tag-two">DATA <span>/</span> SYSTEMS</div>
+      </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have any questions? Get in touch!</p>
-        <form id="contactForm">
-            <label for="contactName">Your Name</label>
-            <input type="text" id="contactName" required>
-            <label for="contactEmail">Your Email</label>
-            <input type="email" id="contactEmail" required>
-            <label for="contactMessage">Your Message</label>
-            <textarea id="contactMessage" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    <div class="marquee-border" aria-hidden="true"><div class="shell tech-marquee">PYTHON <span>✦</span> JAVA <span>✦</span> JAVASCRIPT <span>✦</span> POSTGRESQL <span>✦</span> DOCKER <span>✦</span> GIT <span>✦</span> AIRFLOW</div></div>
+
+    <section id="work" class="section shell" aria-labelledby="work-title">
+      <div class="section-intro">
+        <div><p class="section-kicker">01 / SELECTED WORK</p><h2 id="work-title">Projects that <span class="gradient-text">speak for themselves.</span></h2></div>
+        <p>A mix of real-world problems, experiments, and learning by building. Explore the code and documentation on GitHub.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card project-featured">
+          <div class="card-upper"><span class="project-number">FEATURED / 01</span><span class="category">DATA ENGINEERING</span></div>
+          <div class="featured-layout"><div><div class="project-symbol" aria-hidden="true">◌</div><h3>SA Weather ETL Pipeline</h3><p>From raw weather observations to a working data platform: extract, validate, store, orchestrate, and visualize South African weather data.</p><div class="tags"><span>Python</span><span>PostgreSQL</span><span>Docker</span><span>Airflow</span><span>Flask</span></div><a class="project-link" href="https://github.com/Bongane0606/sa-weather-etl-pipeline" target="_blank" rel="noopener noreferrer">Explore repository <span aria-hidden="true">↗</span></a></div>
+          <div class="pipeline-art" aria-hidden="true"><div class="pipeline-node">EXTRACT <span>●</span></div><div class="pipeline-track">↓</div><div class="pipeline-node">TRANSFORM <span>●</span></div><div class="pipeline-track">↓</div><div class="pipeline-node">LOAD &amp; VISUALIZE <span>●</span></div></div></div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-upper"><span class="project-number">02 / AI SECURITY</span><span class="card-icon" aria-hidden="true">⌁</span></div>
+          <h3>Zuri Watch</h3><p>Federated intrusion detection research exploring how multiple participants can train models while defending against malicious updates.</p><div class="tags"><span>Python</span><span>Federated learning</span><span>AI security</span></div>
+          <a class="project-link" href="https://github.com/Bongane0606/Zuri-Watch" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="card-upper"><span class="project-number">03 / CYBERSECURITY</span><span class="card-icon" aria-hidden="true">⛨</span></div>
+          <h3>SSH Threat Detection</h3><p>A security pipeline that parses authentication logs, flags brute-force and password-spraying patterns, and presents alerts in a dashboard.</p><div class="tags"><span>Python</span><span>SQLite</span><span>Streamlit</span></div>
+          <a class="project-link" href="https://github.com/Bongane0606/Log-analysis-and-threat-detection-pipeline" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="card-upper"><span class="project-number">04 / JAVA</span><span class="card-icon" aria-hidden="true">⌘</span></div>
+          <h3>Mini Banking System</h3><p>Object-oriented banking logic with account types, controlled withdrawals, abstraction, inheritance, and interfaces.</p><div class="tags"><span>Java</span><span>OOP</span><span>Interfaces</span></div>
+          <a class="project-link" href="https://github.com/Bongane0606/Mini-Banking-System" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="card-upper"><span class="project-number">05 / FULL STACK</span><span class="card-icon" aria-hidden="true">◇</span></div>
+          <h3>Final MERN Project</h3><p>An earlier full-stack development project documenting my journey through MongoDB, Express, React, and Node.js.</p><div class="tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
+          <a class="project-link" href="https://github.com/Bongane0606/FINAL-MERN-PROJECT" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="card-upper"><span class="project-number">06 / COMMUNITY</span><span class="card-icon" aria-hidden="true">✳</span></div>
+          <h3>More on GitHub</h3><p>Coursework, collaborative hackathons, prototypes, experiments, and the work behind the journey. Explore the full collection.</p><div class="tags"><span>Collaboration</span><span>Learning</span><span>Experiments</span></div>
+          <a class="project-link" href="https://github.com/Bongane0606?tab=repositories" target="_blank" rel="noopener noreferrer">Browse repositories <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Lesego's Nail Studio.Copy rights reserved.</p>
-    </footer>
+    <section id="skills" class="section section-toned" aria-labelledby="skills-title"><div class="shell">
+      <div class="section-intro"><div><p class="section-kicker">02 / MY TOOLKIT</p><h2 id="skills-title">From idea to <span class="gradient-text">implementation.</span></h2></div><p>I like understanding the whole system — the logic, data, developer tooling, and how people actually use it.</p></div>
+      <div class="skills-grid">
+        <div class="skill-card"><div class="skill-icon" aria-hidden="true">{ }</div><h3>Programming</h3><p>Writing readable, testable application logic.</p><div class="skill-list"><span>Java</span><span>Python</span><span>JavaScript</span><span>SQL</span></div></div>
+        <div class="skill-card"><div class="skill-icon" aria-hidden="true">↗</div><h3>Backend &amp; Web</h3><p>Building connected applications and user-facing interfaces.</p><div class="skill-list"><span>Node.js</span><span>Express</span><span>Flask</span><span>HTML &amp; CSS</span></div></div>
+        <div class="skill-card"><div class="skill-icon" aria-hidden="true">▤</div><h3>Data Engineering</h3><p>Moving, validating, storing, and exploring data.</p><div class="skill-list"><span>PostgreSQL</span><span>SQLite</span><span>Airflow</span><span>Pandas</span></div></div>
+        <div class="skill-card"><div class="skill-icon" aria-hidden="true">⌘</div><h3>Developer Tools</h3><p>Building and collaborating with practical workflows.</p><div class="skill-list"><span>Git &amp; GitHub</span><span>Docker</span><span>Maven</span><span>Linux</span></div></div>
+      </div>
+    </div></section>
 
-    <script src="scripts.js"></script>
+    <section id="about" class="section shell" aria-labelledby="about-title">
+      <div class="about-layout">
+        <div><p class="section-kicker">03 / THE PERSON BEHIND THE CODE</p><h2 id="about-title">Curious by nature.<br><span class="gradient-text">Builder by choice.</span></h2><p class="about-lead">My journey started with learning how websites work. Today, I'm learning to think in systems, solve problems with code, and build software that is useful beyond the classroom.</p><p>I’m in my final year at <strong>WeThinkCode_</strong>, where I've progressed through Python fundamentals, Java object-oriented programming, software development practices, and project-based learning. Team hackathons have pushed me to communicate clearly, experiment quickly, and contribute under pressure.</p><a href="https://github.com/Bongane0606" target="_blank" rel="noopener noreferrer" class="text-link">See my GitHub journey <span aria-hidden="true">↗</span></a></div>
+        <div class="timeline"><div class="timeline-item"><span class="timeline-year">2025</span><div><h3>Full-stack foundations</h3><p>Learned web development and worked on MERN and portfolio projects.</p></div></div><div class="timeline-item"><span class="timeline-year">2026</span><div><h3>Backend &amp; software engineering</h3><p>Developed Python and Java skills through WeThinkCode_ projects and hands-on exercises.</p></div></div><div class="timeline-item"><span class="timeline-year">2026</span><div><h3>Data, security &amp; collaboration</h3><p>Built an automated weather pipeline, explored threat detection, and took part in team hackathons.</p></div></div><div class="timeline-item"><span class="timeline-year">NEXT</span><div><h3>Real-world impact</h3><p>Looking to contribute, learn, and grow on an engineering team.</p></div></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title"><div class="shell contact-content"><p class="section-kicker">04 / LET'S BUILD SOMETHING</p><h2 id="contact-title">Have an idea or an <span class="gradient-text">opportunity?</span></h2><p>I'm interested in junior software developer roles, meaningful collaborations, and conversations with people building great technology.</p><a class="button button-primary contact-button" href="mailto:bonganeclen@gmail.com?subject=Hello%20Clen">Say hello by email <span aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:bonganeclen@gmail.com">bonganeclen@gmail.com</a></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-inner"><a class="footer-logo" href="#top">clen<span>.dev</span></a><p>© <span id="year">2026</span> Clen Bongane. Built with intention.</p><a href="https://github.com/Bongane0606" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
 </body>
 </html>
-
