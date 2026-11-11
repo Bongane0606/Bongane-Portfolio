@@ -1,28 +1,25 @@
-(function () {
-  "use strict";
-  const toggle = document.querySelector(".nav-toggle");
-  const nav = document.getElementById("primary-navigation");
+(() => {
+  const toggle = document.querySelector(".menu-toggle");
+  const nav = document.getElementById("main-nav");
   if (toggle && nav) {
-    const closeMenu = function () {
+    const close = () => {
       nav.classList.remove("open");
       toggle.setAttribute("aria-expanded", "false");
-      toggle.setAttribute("aria-label", "Open navigation");
+      toggle.setAttribute("aria-label", "Open menu");
     };
-    toggle.addEventListener("click", function () {
-      const isOpen = nav.classList.toggle("open");
-      toggle.setAttribute("aria-expanded", String(isOpen));
-      toggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+    toggle.addEventListener("click", () => {
+      const open = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
     });
-    nav.querySelectorAll("a").forEach(function (link) {
-      link.addEventListener("click", closeMenu);
+    nav.querySelectorAll("a").forEach(link => link.addEventListener("click", close));
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") close();
     });
-    document.addEventListener("keydown", function (event) {
-      if (event.key === "Escape") closeMenu();
-    });
-    document.addEventListener("click", function (event) {
-      if (!nav.contains(event.target) && !toggle.contains(event.target)) closeMenu();
+    document.addEventListener("click", event => {
+      if (!nav.contains(event.target) && !toggle.contains(event.target)) close();
     });
   }
   const year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
-}());
+})();

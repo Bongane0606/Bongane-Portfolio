@@ -1,24 +1,33 @@
-# Clen Bongane — Developer Portfolio
+# Clen Bongane — Software Developer Portfolio
 
-A modern, responsive portfolio for **Clen Bongane**, a final-year WeThinkCode_ student and aspiring software developer in South Africa.
+A personal portfolio for **Clen Bongane**, a final-year student at WeThinkCode_ in South Africa.
 
-**Focus:** Java and Python backend development, data engineering, full-stack projects, and cybersecurity.
+## Design and content
 
-## Portfolio
+This is a warm, editorial-style website with cream and off-white surfaces, serif headings, understated typography, responsive layouts and clear project descriptions. It's designed to read like an authentic personal website rather than a dashboard or terminal theme.
 
-This site is a lightweight static website built with HTML, CSS and vanilla JavaScript. It uses a **Midnight Developer** design: a navy background, blue/violet highlights, a developer-terminal hero, accessible navigation, and project cards that link to real repositories.
+The site introduces my background and learning journey, shows practical project work, and outlines my technical skills and interests in backend development, data engineering and cybersecurity.
 
-### Featured work
+## Featured projects
 
-- [SA Weather ETL Pipeline](https://github.com/Bongane0606/sa-weather-etl-pipeline) — Python, Docker, PostgreSQL, Apache Airflow and Flask
-- [Zuri Watch](https://github.com/Bongane0606/Zuri-Watch) — federated intrusion detection and AI security research
-- [SSH Threat Detection](https://github.com/Bongane0606/Log-analysis-and-threat-detection-pipeline) — log parsing, alert rules and Streamlit dashboard
-- [Mini Banking System](https://github.com/Bongane0606/Mini-Banking-System) — Java OOP
-- [Final MERN Project](https://github.com/Bongane0606/FINAL-MERN-PROJECT) — full-stack foundations
+- [SA Weather ETL Pipeline](https://github.com/Bongane0606/sa-weather-etl-pipeline)
+- [SSH Log Analysis and Threat Detection](https://github.com/Bongane0606/Log-analysis-and-threat-detection-pipeline)
+- [Zuri Watch](https://github.com/Bongane0606/Zuri-Watch)
+- [Mini Banking System](https://github.com/Bongane0606/Mini-Banking-System)
+
+Additional work is available at [@Bongane0606](https://github.com/Bongane0606).
+
+## Tech stack
+
+Built using **HTML**, **CSS** and minimal **vanilla JavaScript**. No framework, build system, or backend is required. Google Fonts load externally with native serif and sans-serif fallback fonts.
+
+- \`index.html\` — the live homepage
+- \`portfolio.css\` — warm light design, grid layouts and responsiveness
+- \`portfolio.js\` — accessible mobile navigation and dynamic footer year
+- \`archive/lesego-nail-studio.html\` — preserved earlier web-development project
+- Older legacy files remain in the repository for reference
 
 ## Run locally
-
-Clone the repository, then open the homepage:
 
 ~~~bash
 git clone https://github.com/Bongane0606/Bongane-Portfolio.git
@@ -26,33 +35,19 @@ cd Bongane-Portfolio
 python3 -m http.server 8000
 ~~~
 
-Visit **http://localhost:8000**.
+Open http://localhost:8000 in your browser.
 
-No build step or backend is needed. External Google Fonts are optional; the page includes fallback fonts.
+## GitHub Pages
 
-## Deploy with GitHub Pages
+Under **Settings → Pages**, deploy from the \`main\` branch and \`/(root)\` folder.
 
-In **Settings → Pages**, select **Deploy from a branch**, choose **main**, folder **/(root)**, and save. After GitHub Pages finishes publishing, the site should be available at:
-
-https://bongane0606.github.io/Bongane-Portfolio/
-
-This is the expected URL; GitHub Pages must be enabled before it will work.
-
-## Project structure
-
-- \`index.html\` — current developer portfolio
-- \`portfolio.css\` — responsive Midnight Developer theme
-- \`portfolio.js\` — accessible mobile navigation and footer year
-- \`archive/lesego-nail-studio.html\` — preserved copy of the earlier nail-studio page
-- \`styles.css\`, \`scripts.js\` and legacy images — support the archived site
-
-Older experimental files (\`style.css\`, \`script.js\`, media, and earlier CV) remain in Git history/the repository to avoid deleting prior work without review.
+Expected URL: https://bongane0606.github.io/Bongane-Portfolio/
 
 ## Contact
 
-- GitHub: [@Bongane0606](https://github.com/Bongane0606)
-- Email: [bonganeclen@gmail.com](mailto:bonganeclen@gmail.com)
+**Email:** [bonganeclen@gmail.com](mailto:bonganeclen@gmail.com)  
+**GitHub:** [Bongane0606](https://github.com/Bongane0606)
 
 ---
 
-Built with care and improved as my skills grow.
+The portfolio is intentionally written to reflect my actual experience and continuing growth. The project illustrations are decorative CSS artwork, not screenshots of live apps.
