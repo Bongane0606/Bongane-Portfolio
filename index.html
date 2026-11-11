@@ -1,139 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0a1020">
-  <meta name="description" content="Clen Bongane — South African software developer and final-year WeThinkCode_ student. Explore backend, data engineering, full-stack and cybersecurity projects.">
+  <meta name="theme-color" content="#f9f6ef">
+  <meta name="description" content="Clen Bongane is a South African software development student at WeThinkCode_, building Java applications, Python data pipelines, full-stack projects and security tools.">
   <meta property="og:title" content="Clen Bongane | Software Developer">
-  <meta property="og:description" content="Backend development, data engineering and secure software. Explore my projects and experience.">
-  <meta property="og:type" content="website">
-  <title>Clen Bongane — Software Developer</title>
+  <meta property="og:description" content="Software development, data engineering and a portfolio of practical projects.">
+  <title>Clen Bongane | Software Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="portfolio.css">
   <script src="portfolio.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="ambient ambient-one" aria-hidden="true"></div>
-  <div class="ambient ambient-two" aria-hidden="true"></div>
   <header class="site-header">
-    <div class="shell nav-shell">
-      <a href="#top" class="brand" aria-label="Clen Bongane homepage"><span class="brand-mark">C<span>/</span>B</span><span class="brand-label">clen<span class="accent">.dev</span></span></a>
-      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span></button>
-      <nav id="primary-navigation" class="nav-links" aria-label="Main navigation">
-        <a href="#work">Work</a>
-        <a href="#skills">Expertise</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="nav-contact">Let's talk <span aria-hidden="true">↗</span></a>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Clen Bongane, home">Clen<span class="brand-dot">.</span> <span class="brand-last">Bongane</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav id="main-nav" class="nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a>
+        <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
-
   <main id="main">
-    <section id="top" class="hero shell" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="live-dot" aria-hidden="true"></span> OPEN TO JUNIOR DEVELOPER OPPORTUNITIES</div>
-        <p class="hero-hello">Hello, world. I'm</p>
-        <h1 id="hero-title">Clen <span class="gradient-text">Bongane.</span></h1>
-        <p class="hero-role">Software Developer <span class="slash">/</span> Backend &amp; Data Engineering</p>
-        <p class="hero-description">I turn ideas into working software — from Java applications and Python data pipelines to security-minded systems. Final-year WeThinkCode_ student, building from South Africa.</p>
-        <div class="hero-actions">
-          <a href="#work" class="button button-primary">Explore my work <span aria-hidden="true">↗</span></a>
-          <a href="mailto:bonganeclen@gmail.com?subject=Let's%20connect" class="button button-ghost">Get in touch <span aria-hidden="true">→</span></a>
-        </div>
-        <div class="hero-meta"><span><i aria-hidden="true">◈</i> South Africa</span><span><i aria-hidden="true">⌘</i> Final-year WeThinkCode_ student</span></div>
+    <section class="hero container" id="top">
+      <div class="hero-primary">
+        <p class="eyebrow"><span class="eyebrow-line"></span> HELLO, I'M CLEN BONGANE</p>
+        <h1>I build software<br>that makes <em>sense.</em></h1>
+        <p class="hero-intro">I'm a South African software developer in training, with a growing focus on <strong>backend development, data engineering, and building useful technology.</strong></p>
+        <p class="hero-sub">Currently in my final year at WeThinkCode_, turning curiosity into hands-on projects and meaningful experience.</p>
+        <div class="hero-buttons"><a class="btn btn-dark" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="mailto:bonganeclen@gmail.com">Contact me</a></div>
+        <div class="hero-caption"><span class="status-indicator" aria-hidden="true"></span> Open to junior software development opportunities <span class="separator">·</span> South Africa</div>
       </div>
-      <div class="hero-visual" aria-label="Developer-inspired terminal illustration">
-        <div class="halo halo-1" aria-hidden="true"></div>
-        <div class="halo halo-2" aria-hidden="true"></div>
-        <div class="terminal">
-          <div class="terminal-top"><div class="terminal-dots" aria-hidden="true"><b></b><b></b><b></b></div><span>about-clen.js</span><span class="terminal-file">● portfolio</span></div>
-          <div class="terminal-body">
-            <div class="code-line"><span class="line-no">01</span><span><span class="syntax-purple">const</span> <span class="syntax-blue">developer</span> = {</span></div>
-            <div class="code-line"><span class="line-no">02</span><span>&nbsp;&nbsp;name: <span class="syntax-green">'Clen Bongane'</span>,</span></div>
-            <div class="code-line"><span class="line-no">03</span><span>&nbsp;&nbsp;focus: [</span></div>
-            <div class="code-line"><span class="line-no">04</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-green">'Backend'</span>,</span></div>
-            <div class="code-line"><span class="line-no">05</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-green">'Data Engineering'</span>,</span></div>
-            <div class="code-line"><span class="line-no">06</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-green">'Security'</span></span></div>
-            <div class="code-line"><span class="line-no">07</span><span>&nbsp;&nbsp;],</span></div>
-            <div class="code-line"><span class="line-no">08</span><span>&nbsp;&nbsp;mindset: <span class="syntax-green">'Always learning'</span></span></div>
-            <div class="code-line"><span class="line-no">09</span><span>};</span></div>
-            <div class="terminal-output"><span class="syntax-green">➜</span> Building what matters<span class="cursor"></span></div>
-          </div>
+      <aside class="hero-aside" aria-label="Quick introduction">
+        <div class="profile-card">
+          <div class="profile-art" aria-hidden="true"><span class="profile-initials">CB</span><div class="profile-arc arc-one"></div><div class="profile-arc arc-two"></div></div>
+          <div class="profile-details"><p class="mini-eyebrow">THE PERSON BEHIND THE CODE</p><h2>Clen Bongane</h2><p>Software developer & lifelong learner</p></div>
+          <div class="profile-bottom"><span>Based in South Africa</span><span>WeThinkCode_ · Final year</span></div>
         </div>
-        <div class="floating-tag tag-one">PYTHON <span>●</span> JAVA</div>
-        <div class="floating-tag tag-two">DATA <span>/</span> SYSTEMS</div>
+        <p class="hero-aside-note">“I care about building things that work, learning why they work, and making them better.”</p>
+      </aside>
+    </section>
+
+    <section class="intro-band" aria-label="Areas of interest"><div class="container band-inner"><span>Software development</span><span class="band-star">✳</span><span>Data engineering</span><span class="band-star">✳</span><span>Backend systems</span><span class="band-star">✳</span><span>Cybersecurity</span></div></section>
+
+    <section id="about" class="section container about-section">
+      <div class="section-heading"><span class="section-number">01 / ABOUT ME</span><h2>More than just <em>code.</em></h2></div>
+      <div class="about-layout">
+        <div class="about-statement"><p>My journey into technology started with web development. The more I learned, the more I became interested in how things work behind the screen: application logic, databases, data flows and the engineering decisions that make software dependable.</p><p>Today I’m in my <strong>final year at WeThinkCode_</strong>, where hands-on learning has helped me progress from Python fundamentals to Java object-oriented programming, backend applications, collaborative development and data engineering.</p><p>I’ve also taken part in team hackathons, exploring ideas in security, fintech and practical everyday problems. Those experiences taught me to keep learning, communicate clearly and build with purpose—even when the problem is unfamiliar.</p></div>
+        <div class="about-facts"><div class="fact"><span class="fact-label">EDUCATION</span><strong>WeThinkCode_</strong><span>Final-year software development student</span></div><div class="fact"><span class="fact-label">INTERESTS</span><strong>Backend & data</strong><span>Systems, automation and secure applications</span></div><div class="fact"><span class="fact-label">WORKING STYLE</span><strong>Curious & collaborative</strong><span>Learning through building, testing and teamwork</span></div><div class="fact"><span class="fact-label">NEXT STEP</span><strong>Software development career</strong><span>Seeking junior opportunities to contribute and grow</span></div></div>
       </div>
     </section>
 
-    <div class="marquee-border" aria-hidden="true"><div class="shell tech-marquee">PYTHON <span>✦</span> JAVA <span>✦</span> JAVASCRIPT <span>✦</span> POSTGRESQL <span>✦</span> DOCKER <span>✦</span> GIT <span>✦</span> AIRFLOW</div></div>
-
-    <section id="work" class="section shell" aria-labelledby="work-title">
-      <div class="section-intro">
-        <div><p class="section-kicker">01 / SELECTED WORK</p><h2 id="work-title">Projects that <span class="gradient-text">speak for themselves.</span></h2></div>
-        <p>A mix of real-world problems, experiments, and learning by building. Explore the code and documentation on GitHub.</p>
-      </div>
-      <div class="projects-grid">
-        <article class="project-card project-featured">
-          <div class="card-upper"><span class="project-number">FEATURED / 01</span><span class="category">DATA ENGINEERING</span></div>
-          <div class="featured-layout"><div><div class="project-symbol" aria-hidden="true">◌</div><h3>SA Weather ETL Pipeline</h3><p>From raw weather observations to a working data platform: extract, validate, store, orchestrate, and visualize South African weather data.</p><div class="tags"><span>Python</span><span>PostgreSQL</span><span>Docker</span><span>Airflow</span><span>Flask</span></div><a class="project-link" href="https://github.com/Bongane0606/sa-weather-etl-pipeline" target="_blank" rel="noopener noreferrer">Explore repository <span aria-hidden="true">↗</span></a></div>
-          <div class="pipeline-art" aria-hidden="true"><div class="pipeline-node">EXTRACT <span>●</span></div><div class="pipeline-track">↓</div><div class="pipeline-node">TRANSFORM <span>●</span></div><div class="pipeline-track">↓</div><div class="pipeline-node">LOAD &amp; VISUALIZE <span>●</span></div></div></div>
-        </article>
-
-        <article class="project-card">
-          <div class="card-upper"><span class="project-number">02 / AI SECURITY</span><span class="card-icon" aria-hidden="true">⌁</span></div>
-          <h3>Zuri Watch</h3><p>Federated intrusion detection research exploring how multiple participants can train models while defending against malicious updates.</p><div class="tags"><span>Python</span><span>Federated learning</span><span>AI security</span></div>
-          <a class="project-link" href="https://github.com/Bongane0606/Zuri-Watch" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
-        </article>
-
-        <article class="project-card">
-          <div class="card-upper"><span class="project-number">03 / CYBERSECURITY</span><span class="card-icon" aria-hidden="true">⛨</span></div>
-          <h3>SSH Threat Detection</h3><p>A security pipeline that parses authentication logs, flags brute-force and password-spraying patterns, and presents alerts in a dashboard.</p><div class="tags"><span>Python</span><span>SQLite</span><span>Streamlit</span></div>
-          <a class="project-link" href="https://github.com/Bongane0606/Log-analysis-and-threat-detection-pipeline" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
-        </article>
-
-        <article class="project-card">
-          <div class="card-upper"><span class="project-number">04 / JAVA</span><span class="card-icon" aria-hidden="true">⌘</span></div>
-          <h3>Mini Banking System</h3><p>Object-oriented banking logic with account types, controlled withdrawals, abstraction, inheritance, and interfaces.</p><div class="tags"><span>Java</span><span>OOP</span><span>Interfaces</span></div>
-          <a class="project-link" href="https://github.com/Bongane0606/Mini-Banking-System" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
-        </article>
-
-        <article class="project-card">
-          <div class="card-upper"><span class="project-number">05 / FULL STACK</span><span class="card-icon" aria-hidden="true">◇</span></div>
-          <h3>Final MERN Project</h3><p>An earlier full-stack development project documenting my journey through MongoDB, Express, React, and Node.js.</p><div class="tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
-          <a class="project-link" href="https://github.com/Bongane0606/FINAL-MERN-PROJECT" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
-        </article>
-
-        <article class="project-card">
-          <div class="card-upper"><span class="project-number">06 / COMMUNITY</span><span class="card-icon" aria-hidden="true">✳</span></div>
-          <h3>More on GitHub</h3><p>Coursework, collaborative hackathons, prototypes, experiments, and the work behind the journey. Explore the full collection.</p><div class="tags"><span>Collaboration</span><span>Learning</span><span>Experiments</span></div>
-          <a class="project-link" href="https://github.com/Bongane0606?tab=repositories" target="_blank" rel="noopener noreferrer">Browse repositories <span aria-hidden="true">↗</span></a>
-        </article>
-      </div>
-    </section>
-
-    <section id="skills" class="section section-toned" aria-labelledby="skills-title"><div class="shell">
-      <div class="section-intro"><div><p class="section-kicker">02 / MY TOOLKIT</p><h2 id="skills-title">From idea to <span class="gradient-text">implementation.</span></h2></div><p>I like understanding the whole system — the logic, data, developer tooling, and how people actually use it.</p></div>
-      <div class="skills-grid">
-        <div class="skill-card"><div class="skill-icon" aria-hidden="true">{ }</div><h3>Programming</h3><p>Writing readable, testable application logic.</p><div class="skill-list"><span>Java</span><span>Python</span><span>JavaScript</span><span>SQL</span></div></div>
-        <div class="skill-card"><div class="skill-icon" aria-hidden="true">↗</div><h3>Backend &amp; Web</h3><p>Building connected applications and user-facing interfaces.</p><div class="skill-list"><span>Node.js</span><span>Express</span><span>Flask</span><span>HTML &amp; CSS</span></div></div>
-        <div class="skill-card"><div class="skill-icon" aria-hidden="true">▤</div><h3>Data Engineering</h3><p>Moving, validating, storing, and exploring data.</p><div class="skill-list"><span>PostgreSQL</span><span>SQLite</span><span>Airflow</span><span>Pandas</span></div></div>
-        <div class="skill-card"><div class="skill-icon" aria-hidden="true">⌘</div><h3>Developer Tools</h3><p>Building and collaborating with practical workflows.</p><div class="skill-list"><span>Git &amp; GitHub</span><span>Docker</span><span>Maven</span><span>Linux</span></div></div>
+    <section id="experience" class="section section-alt"><div class="container experience-layout">
+      <div class="section-heading"><span class="section-number">02 / MY JOURNEY</span><h2>Learning by <em>doing.</em></h2><p>Not every meaningful experience happens in a full-time job. Coursework, team projects and hackathons have shaped how I approach software.</p></div>
+      <div class="journey">
+        <article class="journey-item"><span class="journey-time">2025 – PRESENT</span><div><h3>Software Development Student <span class="org">/ WeThinkCode_</span></h3><p>Project-based programming with Python and Java, OOP, software testing, version control and web application development. Currently in my final year.</p></div></article>
+        <article class="journey-item"><span class="journey-time">2026</span><div><h3>Data Engineering Projects <span class="org">/ Coursework</span></h3><p>Developed a weather-data ETL pipeline using Python, PostgreSQL, Docker and Apache Airflow, with a web dashboard to explore observations.</p></div></article>
+        <article class="journey-item"><span class="journey-time">2026</span><div><h3>Cybersecurity & AI Exploration <span class="org">/ Hackathons & electives</span></h3><p>Worked on SSH threat detection and collaborative security experiments, including federated intrusion detection and defensive AI concepts.</p></div></article>
+        <article class="journey-item"><span class="journey-time">2025</span><div><h3>Full-stack Foundations <span class="org">/ Personal learning</span></h3><p>Built early websites and MERN stack projects. These projects helped me learn the fundamentals of building interfaces and connecting them to application logic.</p></div></article>
       </div>
     </div></section>
 
-    <section id="about" class="section shell" aria-labelledby="about-title">
-      <div class="about-layout">
-        <div><p class="section-kicker">03 / THE PERSON BEHIND THE CODE</p><h2 id="about-title">Curious by nature.<br><span class="gradient-text">Builder by choice.</span></h2><p class="about-lead">My journey started with learning how websites work. Today, I'm learning to think in systems, solve problems with code, and build software that is useful beyond the classroom.</p><p>I’m in my final year at <strong>WeThinkCode_</strong>, where I've progressed through Python fundamentals, Java object-oriented programming, software development practices, and project-based learning. Team hackathons have pushed me to communicate clearly, experiment quickly, and contribute under pressure.</p><a href="https://github.com/Bongane0606" target="_blank" rel="noopener noreferrer" class="text-link">See my GitHub journey <span aria-hidden="true">↗</span></a></div>
-        <div class="timeline"><div class="timeline-item"><span class="timeline-year">2025</span><div><h3>Full-stack foundations</h3><p>Learned web development and worked on MERN and portfolio projects.</p></div></div><div class="timeline-item"><span class="timeline-year">2026</span><div><h3>Backend &amp; software engineering</h3><p>Developed Python and Java skills through WeThinkCode_ projects and hands-on exercises.</p></div></div><div class="timeline-item"><span class="timeline-year">2026</span><div><h3>Data, security &amp; collaboration</h3><p>Built an automated weather pipeline, explored threat detection, and took part in team hackathons.</p></div></div><div class="timeline-item"><span class="timeline-year">NEXT</span><div><h3>Real-world impact</h3><p>Looking to contribute, learn, and grow on an engineering team.</p></div></div></div>
+    <section id="projects" class="section container">
+      <div class="section-heading projects-heading"><div><span class="section-number">03 / SELECTED PROJECTS</span><h2>Work I'm <em>proud of.</em></h2><p>Here are a few projects that represent what I’ve been learning and building. Each one links to its source code and documentation.</p></div><a class="simple-link" href="https://github.com/Bongane0606?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories <span aria-hidden="true">↗</span></a></div>
+      <div class="project-list">
+        <article class="project"><div class="project-image project-weather" aria-hidden="true"><span class="project-graphic-title">WEATHER <b>DATA</b></span><div class="weather-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="graphic-footer">EXTRACT · TRANSFORM · LOAD</span></div><div class="project-description"><span class="project-kicker">01 — DATA ENGINEERING</span><h3>SA Weather ETL Pipeline</h3><p>A data pipeline for collecting, transforming, validating and storing South African weather observations. I expanded it with orchestration and a dashboard to make the results easier to explore.</p><div class="project-tags"><span>Python</span><span>PostgreSQL</span><span>Docker</span><span>Airflow</span><span>Flask</span></div><a class="simple-link" href="https://github.com/Bongane0606/sa-weather-etl-pipeline" target="_blank" rel="noopener noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project"><div class="project-image project-security" aria-hidden="true"><div class="security-symbol">◎<span class="security-dot">◆</span></div><span class="graphic-footer">DETECT · ANALYZE · RESPOND</span></div><div class="project-description"><span class="project-kicker">02 — CYBERSECURITY</span><h3>SSH Threat Detection</h3><p>A practical security pipeline that reads authentication logs, identifies suspicious login patterns such as brute-force attempts and password spraying, and displays alerts in a Streamlit dashboard.</p><div class="project-tags"><span>Python</span><span>SQLite</span><span>Streamlit</span><span>Log analysis</span></div><a class="simple-link" href="https://github.com/Bongane0606/Log-analysis-and-threat-detection-pipeline" target="_blank" rel="noopener noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project"><div class="project-image project-ai" aria-hidden="true"><div class="network-graphic"><span></span><span></span><span></span><span></span><span></span></div><span class="graphic-footer">TRUSTED SYSTEMS · AI SECURITY</span></div><div class="project-description"><span class="project-kicker">03 — AI & SECURITY</span><h3>Zuri Watch</h3><p>A collaborative security project exploring robust federated intrusion detection. The work evaluates how to identify malicious model updates while allowing participants to train without pooling their raw data.</p><div class="project-tags"><span>Python</span><span>Federated learning</span><span>Cybersecurity</span></div><a class="simple-link" href="https://github.com/Bongane0606/Zuri-Watch" target="_blank" rel="noopener noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project"><div class="project-image project-java" aria-hidden="true"><div class="java-graphic"><span>class</span><strong>BankAccount</strong><small>deposit() · withdraw()</small></div><span class="graphic-footer">JAVA · OBJECT-ORIENTED DESIGN</span></div><div class="project-description"><span class="project-kicker">04 — SOFTWARE ENGINEERING</span><h3>Mini Banking System</h3><p>A Java project designed to practice abstraction, inheritance, polymorphism and interfaces. It models savings and current accounts with different withdrawal rules.</p><div class="project-tags"><span>Java</span><span>OOP</span><span>Interfaces</span></div><a class="simple-link" href="https://github.com/Bongane0606/Mini-Banking-System" target="_blank" rel="noopener noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a></div></article>
       </div>
+      <div class="project-more"><div><h3>There's more behind the scenes.</h3><p>My GitHub also includes earlier full-stack projects, practice exercises, experiments and team collaborations. They show how my skills have grown over time.</p></div><a class="btn btn-outline" href="https://github.com/Bongane0606" target="_blank" rel="noopener noreferrer">Browse my GitHub <span aria-hidden="true">↗</span></a></div>
     </section>
 
-    <section id="contact" class="section contact-section" aria-labelledby="contact-title"><div class="shell contact-content"><p class="section-kicker">04 / LET'S BUILD SOMETHING</p><h2 id="contact-title">Have an idea or an <span class="gradient-text">opportunity?</span></h2><p>I'm interested in junior software developer roles, meaningful collaborations, and conversations with people building great technology.</p><a class="button button-primary contact-button" href="mailto:bonganeclen@gmail.com?subject=Hello%20Clen">Say hello by email <span aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:bonganeclen@gmail.com">bonganeclen@gmail.com</a></div></section>
+    <section id="skills" class="section section-alt"><div class="container"><div class="section-heading"><span class="section-number">04 / TECHNICAL SKILLS</span><h2>Tools I use to <em>build.</em></h2><p>A practical toolkit developed through coursework, personal projects and team challenges.</p></div>
+      <div class="skills-list"><div class="skill-row"><h3>Languages</h3><p>Java · Python · JavaScript · SQL</p></div><div class="skill-row"><h3>Backend & web</h3><p>Node.js · Express · Flask · Javalin · HTML · CSS</p></div><div class="skill-row"><h3>Data & databases</h3><p>PostgreSQL · SQLite · MongoDB · Pandas · Apache Airflow</p></div><div class="skill-row"><h3>Tools & practices</h3><p>Git · GitHub · Docker · Maven · Linux · Unit testing · OOP</p></div></div>
+      <p class="skills-note">I'm always learning. I value understanding fundamentals over presenting a long list of buzzwords.</p>
+    </div></section>
+
+    <section class="section values-section container"><span class="section-number">05 / HOW I APPROACH MY WORK</span><div class="values-layout"><h2>Thoughtful solutions.<br><em>Continuous growth.</em></h2><div class="values-grid"><div><span class="value-no">01</span><h3>Keep it practical</h3><p>Start with the actual problem, then choose an approach that helps solve it.</p></div><div><span class="value-no">02</span><h3>Learn by building</h3><p>Experiment, make mistakes, test assumptions and improve with every iteration.</p></div><div><span class="value-no">03</span><h3>Work together</h3><p>Good communication and shared ownership make a project stronger.</p></div></div></div></section>
+
+    <section id="contact" class="contact-section"><div class="container contact-layout"><div><span class="section-number">06 / GET IN TOUCH</span><h2>Let's make something <em>worthwhile.</em></h2><p>I'm interested in junior developer opportunities, collaborative projects and meeting people working on meaningful technology.</p><a class="btn btn-dark" href="mailto:bonganeclen@gmail.com?subject=Hello%20Clen">Send me an email <span aria-hidden="true">↗</span></a></div><div class="contact-info"><span class="contact-label">EMAIL</span><a href="mailto:bonganeclen@gmail.com">bonganeclen@gmail.com</a><span class="contact-label">GITHUB</span><a href="https://github.com/Bongane0606" target="_blank" rel="noopener noreferrer">github.com/Bongane0606 ↗</a><span class="contact-label">LOCATION</span><p>South Africa</p></div></div></section>
   </main>
-  <footer class="footer"><div class="shell footer-inner"><a class="footer-logo" href="#top">clen<span>.dev</span></a><p>© <span id="year">2026</span> Clen Bongane. Built with intention.</p><a href="https://github.com/Bongane0606" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><strong>Clen Bongane<span class="brand-dot">.</span></strong><span>© <span id="year">2026</span> Clen Bongane. Made with care.</span><a href="#top">Back to top ↑</a></div></footer>
 </body>
 </html>
