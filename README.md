@@ -25,7 +25,8 @@ Built using **HTML**, **CSS** and minimal **vanilla JavaScript**. No framework, 
 - \`portfolio.css\` — warm light design, grid layouts and responsiveness
 - \`portfolio.js\` — accessible mobile navigation and dynamic footer year
 - \`archive/lesego-nail-studio.html\` — preserved earlier web-development project
-- Older legacy files remain in the repository for reference
+- The older nail-studio HTML is preserved, but its original gallery pictures were removed during repository cleanup.
+- Other legacy files remain for reference.
 
 ## Run locally
 
